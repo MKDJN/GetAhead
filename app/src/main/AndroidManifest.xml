@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.getahead">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Timetable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="layout.Morn.MonMorn"
+            android:label="@string/title_activity_mon_morn"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Noon.MonNoon"
+            android:label="@string/title_activity_mon_noon"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Eve.MonEve"
+            android:label="@string/title_activity_mon_eve"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Morn.TueMorn"
+            android:label="@string/title_activity_tue_morn"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Noon.TueNoon"
+            android:label="@string/title_activity_tue_noon"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Eve.TueEve"
+            android:label="@string/title_activity_tue_eve"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Morn.WedMorn"
+            android:label="@string/title_activity_wed_morn"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Noon.WedNoon"
+            android:label="@string/title_activity_wed_noon"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Eve.WedEve"
+            android:label="@string/title_activity_wed_eve"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Morn.ThuMorn"
+            android:label="@string/title_activity_thu_morn"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Eve.ThuEve"
+            android:label="@string/title_activity_thu_eve"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Eve.FriEve"
+            android:label="@string/title_activity_fri_eve"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Morn.FriMorn"
+            android:label="@string/title_activity_fri_morn"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Noon.ThuNoon"
+            android:label="@string/title_activity_thu_noon"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+        <activity
+            android:name="layout.Noon.FriNoon"
+            android:label="@string/title_activity_fri_noon"
+            android:parentActivityName=".Timetable"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.getahead.Timetable" />
+        </activity>
+    </application>
+
+</manifest>

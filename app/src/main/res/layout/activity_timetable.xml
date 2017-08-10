@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/transparent"
+tools:context="com.example.getahead.Timetable">
+
+
+<Button
+    android:id="@+id/MondayMorning"
+    android:layout_width="108dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:elevation="0dp"
+    android:onClick="sendScreen"
+    android:text="Monday Morning"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:text="Monday morning" />
+
+<Button
+    android:id="@+id/TuesdayMorning"
+    android:layout_width="109dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:text="Tuesday Morning"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/MondayMorning"
+    tools:text="Tuesday Morning" />
+
+<Button
+    android:id="@+id/WednesdayMorning"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:text="WednesdayMorning"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/TuesdayMorning"
+    tools:text="Wednesday Morning" />
+
+<Button
+    android:id="@+id/ThursdayMorning"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:text="Thursday Morning"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/WednesdayMorning" />
+
+<Button
+    android:id="@+id/FridayMorning"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:text="Friday Morning"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ThursdayMorning" />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:text="Monday Noon"
+    app:layout_constraintBaseline_toBaselineOf="@+id/MondayMorning"
+    app:layout_constraintLeft_toRightOf="@+id/MondayMorning" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:text="Tuesday Noon"
+    app:layout_constraintBaseline_toBaselineOf="@+id/TuesdayMorning"
+    app:layout_constraintLeft_toRightOf="@+id/TuesdayMorning" />
+
+<Button
+    android:id="@+id/button5"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:text="Wednesday Noon"
+    app:layout_constraintBaseline_toBaselineOf="@+id/WednesdayMorning"
+    app:layout_constraintLeft_toRightOf="@+id/WednesdayMorning" />
+
+<Button
+    android:id="@+id/button6"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:text="Thursday Noon"
+    app:layout_constraintBaseline_toBaselineOf="@+id/ThursdayMorning"
+    app:layout_constraintLeft_toRightOf="@+id/ThursdayMorning" />
+
+<Button
+    android:id="@+id/button7"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:text="Friday Noon"
+    app:layout_constraintBaseline_toBaselineOf="@+id/FridayMorning"
+    app:layout_constraintLeft_toRightOf="@+id/FridayMorning" />
+
+<Button
+    android:id="@+id/button8"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:text="Monday Eve"
+    app:layout_constraintLeft_toRightOf="@+id/button3"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintHorizontal_bias="0.4"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="16dp" />
+
+<Button
+    android:id="@+id/button9"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:text="Tuesday Eve"
+    app:layout_constraintBaseline_toBaselineOf="@+id/button4"
+    app:layout_constraintLeft_toRightOf="@+id/button4"
+    app:layout_constraintRight_toRightOf="parent"
+    tools:layout_editor_absoluteX="293dp"
+    app:layout_constraintHorizontal_bias="0.472" />
+
+<Button
+    android:id="@+id/button10"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:text="Wednesday Eve"
+    app:layout_constraintBaseline_toBaselineOf="@+id/button5"
+    app:layout_constraintLeft_toRightOf="@+id/button5"
+    app:layout_constraintRight_toRightOf="parent"
+    tools:layout_editor_absoluteX="293dp"
+    app:layout_constraintHorizontal_bias="0.487" />
+
+<Button
+    android:id="@+id/button11"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:text="Thursday Eve"
+    app:layout_constraintBaseline_toBaselineOf="@+id/button6"
+    app:layout_constraintLeft_toRightOf="@+id/button6"
+    app:layout_constraintRight_toRightOf="parent"
+    tools:layout_editor_absoluteX="295dp"
+    app:layout_constraintHorizontal_bias="0.489" />
+
+<Button
+    android:id="@+id/button12"
+    android:layout_width="111dp"
+    android:layout_height="56dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:text="Friday Eve"
+    app:layout_constraintLeft_toRightOf="@+id/button7"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintHorizontal_bias="0.538"
+    android:layout_marginTop="16dp"
+    app:layout_constraintTop_toBottomOf="@+id/button11" /><!-- used in MainActivity.java for (TuesdayMorning = (Button)findViewById(R.id.TuesdayMorning)) in public void xyz -->
+android:layout_width="175dp"
+android:layout_height="43dp"
+android:layout_marginLeft="8dp"
+android:layout_marginTop="8dp"
+android:text="WednesdayMorning"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/TuesdayMorning"
+tools:text="Wednesday Morning" />
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="8dp"
+android:layout_marginTop="8dp"
+android:text="Tuesday Morning"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/MondayMorning"
+tools:text="Tuesday Morning" />
+</android.support.constraint.ConstraintLayout>

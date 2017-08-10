@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Get Ahead</string>
+    <string name="title_activity_mon_morn">MonMorn</string>
+    <string name="title_activity_mon_eve">MonEve</string>
+    <string name="title_activity_mon_noon">MonNoon</string>
+    <string name="title_activity_tue_morn">TueMorn</string>
+    <string name="title_activity_tue_noon">TueNoon</string>
+    <string name="title_activity_tue_eve">TueEve</string>
+    <string name="title_activity_wed_morn">WedMorn</string>
+    <string name="title_activity_wed_noon">WedNoon</string>
+    <string name="title_activity_wed_eve">WedEve</string>
+    <string name="title_activity_thu_morn">ThuMorn</string>
+    <string name="title_activity_thu_eve">ThuEve</string>
+    <string name="title_activity_fri_eve">FriEve</string>
+    <string name="title_activity_fri_morn">FriMorn</string>
+    <string name="title_activity_thu_noon">ThuNoon</string>
+    <string name="title_activity_fri_noon">FriNoon</string>
+</resources>
